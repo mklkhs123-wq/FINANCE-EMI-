@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Finance App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="sidebar">
+        <h2>📊 Smart Finance</h2>
+        <ul>
+            <li onclick="showSection('emi')">EMI Calculator</li>
+            <li onclick="showSection('fd')">FD Calculator</li>
+            <li onclick="showSection('sip')">SIP Calculator</li>
+            <li onclick="showSection('rd')">RD Calculator</li>
+            <li onclick="showSection('ppf')">PPF Calculator</li>
+            <li onclick="showSection('currency')">Currency Converter</li>
+            <li onclick="showSection('news')">Finance News</li>
+            <li onclick="showSection('loan')">Loan & UPI</li>
+            <li onclick="showSection('privacy')">Privacy Policy</li>
+        </ul>
+    </div>
+    <div class="main">
+        <div id="emi" class="section"></div>
+        <div id="fd" class="section"></div>
+        <div id="sip" class="section"></div>
+        <div id="rd" class="section"></div>
+        <div id="ppf" class="section"></div>
+        <div id="currency" class="section"></div>
+        <div id="news" class="section"></div>
+        <div id="loan" class="section"></div>
+        <div id="privacy" class="section"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
